@@ -37,7 +37,7 @@ Each uploaded research paper is compared with existing papers in the dataset usi
 The overall author score is computed as:
 
 $$
-\text{Final Score} = \text{avg_similarity} \times \log_2(\text{n} + 1)
+\mathrm{Final\ Score} = \mathrm{avg\underline{\,similarity\,}} \times \log_2\bigl(\mathrm{n} + 1\bigr)
 $$
 
 Where:
