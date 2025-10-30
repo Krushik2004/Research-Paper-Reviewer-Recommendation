@@ -54,3 +54,57 @@ cd research-paper-reviewer-recommender
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
 
 ---
+
+🪜 Step 2: Set Up Python Environment
+It’s recommended to create a virtual environment before installation.
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+🪜 Step 3: Install Required Dependencies
+All required libraries are listed in requirements.txt.
+pip install -r requirements.txt
+Contents of requirements.txt:
+streamlit
+pandas
+numpy
+fitz
+sentence-transformers
+scikit-learn
+tqdm
+🪜 Step 4: Prepare the Dataset
+Organize your dataset in the following structure:
+Dataset/
+├── Author1/
+│   ├── paper1.pdf
+│   ├── paper2.pdf
+├── Author2/
+│   ├── paper1.pdf
+│   └── paper2.pdf
+Each folder name represents an author, and the PDFs inside it are their published research papers.
+🪜 Step 5: Preprocess and Generate Paper Embeddings
+Before launching the app, run the preprocessing script to extract text and generate embeddings.
+python recommender.py
+This script will:
+Extract the first few pages from each PDF.
+Save extracted text and metadata in papers.csv.
+Compute semantic embeddings using SentenceTransformer.
+Save embeddings in paper_embeddings.npy.
+🪜 Step 6: Run the Streamlit Application
+Once embeddings are generated, launch the web application.
+streamlit run app.py
+This opens a local server — typically at:
+http://localhost:8501
+🪜 Step 7: Use the Web App
+Upload a research paper (PDF).
+Select the number of reviewers (k) to recommend.
+Click “Find Reviewers”.
+The system computes similarity scores and displays a ranked list of reviewers.
+💻 Deploying to Streamlit Cloud
+You can host this app online using Streamlit Cloud.
+Steps:
+Push your repository to GitHub.
+Go to Streamlit Cloud.
+Connect your GitHub account and select this repository.
+In “Advanced Settings”, set the start command as:
+streamlit run app.py
+Click Deploy 🎉
