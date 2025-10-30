@@ -1,3 +1,9 @@
+## Team Members:
+- Krushik Teja Thati — Roll No: SE2UARI078
+- Madala Venkata Bhargav — Roll No: SE22UARI086
+- Neelarapu Sai Shivan Raj — Roll No: SE22UARI106
+- Merugu MouryaAdithya — Roll No: SE22UARI095
+
 # 📄 Research Paper Reviewer Recommendation System
 
 This project is an **AI-powered Research Paper Reviewer Recommendation System** that automatically recommends the most suitable reviewers for a given research paper.  
