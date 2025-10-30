@@ -50,18 +50,23 @@ Where:
 ```bash
 git clone https://github.com/Krushik2004/Research-Paper-Reviewer-Recommendation.git
 cd research-paper-reviewer-recommender
+```
 
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
 
 ---
 
-🪜 Step 2: Set Up Python Environment
+### 🪜 Step 2: Set Up Python Environment
 It’s recommended to create a virtual environment before installation.
+```bash
 python -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
-🪜 Step 3: Install Required Dependencies
+```
+
+### 🪜 Step 3: Install Required Dependencies
 All required libraries are listed in requirements.txt.
+```nginx
 pip install -r requirements.txt
 Contents of requirements.txt:
 streamlit
@@ -71,17 +76,9 @@ fitz
 sentence-transformers
 scikit-learn
 tqdm
-🪜 Step 4: Prepare the Dataset
-Organize your dataset in the following structure:
-Dataset/
-├── Author1/
-│   ├── paper1.pdf
-│   ├── paper2.pdf
-├── Author2/
-│   ├── paper1.pdf
-│   └── paper2.pdf
-Each folder name represents an author, and the PDFs inside it are their published research papers.
-🪜 Step 5: Preprocess and Generate Paper Embeddings
+```
+
+### 🪜 Step 5: Preprocess and Generate Paper Embeddings
 Before launching the app, run the preprocessing script to extract text and generate embeddings.
 python recommender.py
 This script will:
