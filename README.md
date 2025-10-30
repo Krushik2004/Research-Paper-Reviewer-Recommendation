@@ -17,6 +17,11 @@ The goal of this project is to assist in **automating the reviewer assignment pr
 
 ---
 
+## File Desscripton
+- The python file recommender.py contains all the functions necessary to extract data from PDF files, process it and recommend top-k reviewers, k ranging from 1 to 5.
+
+- The python file app.py contains the code for the streamlit application which import functions from recommender.py and when a PDF file is uploaded to the website it process it using those functions and recommends top-k authors, k ranging from 1 to 5.
+
 **The Deployed Website link hosted on  streamlit**: ["Website Link"](https://research-paper-reviewer-recommendation-jqyyvdqdnqrnvgnmcn7v7y.streamlit.app)
 
 ## 🧠 **Approach Overview**
