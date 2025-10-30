@@ -87,19 +87,21 @@ This opens a local server — typically at:
 ```arduino
 http://localhost:8501
 ```
+
 ### 🪜 Step 5: Use the Web App
-Upload a research paper (PDF).
-Select the number of reviewers (k) to recommend.
-Click “Find Reviewers”.
-The system computes similarity scores and displays a ranked list of reviewers.
-💻 Deploying to Streamlit Cloud
+- Upload a research paper (PDF).
+- Select the number of reviewers (k) to recommend.
+- Click “Find Reviewers”.
+- The system computes similarity scores and displays a ranked list of reviewers.
+
+### 💻 Deploying to Streamlit Cloud
 You can host this app online using Streamlit Cloud.
 Steps:
-Push your repository to GitHub.
-Go to Streamlit Cloud.
-Connect your GitHub account and select this repository.
-In “Advanced Settings”, set the start command as:
+- Push your repository to GitHub.
+- Go to Streamlit Cloud.
+- Connect your GitHub account and select this repository.
+- In “Advanced Settings”, set the start command as:
 ```python
 streamlit run app.py
 ```
-Click Deploy 🎉
+- Click Deploy 🎉
