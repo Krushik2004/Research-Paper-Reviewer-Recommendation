@@ -29,7 +29,7 @@ The goal of this project is to assist in **automating the reviewer assignment pr
 
 ### Feature Representation:
 
-The system extracts textual content from PDFs and computes similarities using **three complementary techniques**:
+Computes similarities using **three complementary techniques**:
 
 | Similarity Type | Technique Used | Description |
 |-----------------|----------------|--------------|
