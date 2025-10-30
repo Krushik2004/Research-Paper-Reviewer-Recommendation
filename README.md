@@ -36,9 +36,8 @@ Each uploaded research paper is compared with existing papers in the dataset usi
 
 The overall author score is computed as:
 
-$$
-\mathrm{Final\ Score} = \mathrm{avg_similarity} \times \log_2\bigl(\mathrm{n} + 1\bigr)
-$$
+![equation](https://latex.codecogs.com/svg.image?\mathrm{Final\ Score}=\mathrm{avg\_similarity}\times\log_2(\mathrm{n}+1))
+
 
 
 Where:
