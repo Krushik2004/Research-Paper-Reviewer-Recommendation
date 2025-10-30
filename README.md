@@ -48,7 +48,7 @@ Where:
 
 ### 🪜 Step 1: Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/research-paper-reviewer-recommender.git
+git clone https://github.com/Krushik2004/Research-Paper-Reviewer-Recommendation.git
 cd research-paper-reviewer-recommender
 
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
