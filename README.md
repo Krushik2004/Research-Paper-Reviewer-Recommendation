@@ -42,7 +42,14 @@ $$
 
 Where:
 - **avg_similarity** = average similarity of papers with similarity ≥ 95th percentile  
-- **n** = number of papers with similarity > 0  
+- **n** = number of papers with similarity > 0
+
+## 🚀 Step-by-Step Setup Instructions
+
+### 🪜 Step 1: Clone the Repository
+```bash
+git clone https://github.com/<your-username>/research-paper-reviewer-recommender.git
+cd research-paper-reviewer-recommender
 
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
 
