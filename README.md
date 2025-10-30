@@ -42,7 +42,7 @@ $$
 
 
 Where:
-- **avg_sim** = average similarity of papers with similarity ≥ 95th percentile  
+- **\mathrm{avg\_similarity}** = average similarity of papers with similarity ≥ 95th percentile  
 - **n** = number of papers with similarity > 0  
 
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
