@@ -78,20 +78,16 @@ scikit-learn
 tqdm
 ```
 
-### 🪜 Step 5: Preprocess and Generate Paper Embeddings
-Before launching the app, run the preprocessing script to extract text and generate embeddings.
-python recommender.py
-This script will:
-Extract the first few pages from each PDF.
-Save extracted text and metadata in papers.csv.
-Compute semantic embeddings using SentenceTransformer.
-Save embeddings in paper_embeddings.npy.
-🪜 Step 6: Run the Streamlit Application
+### 🪜 Step 4: Run the Streamlit Application
 Once embeddings are generated, launch the web application.
+```python
 streamlit run app.py
+```
 This opens a local server — typically at:
+```arduino
 http://localhost:8501
-🪜 Step 7: Use the Web App
+```
+### 🪜 Step 5: Use the Web App
 Upload a research paper (PDF).
 Select the number of reviewers (k) to recommend.
 Click “Find Reviewers”.
@@ -103,5 +99,7 @@ Push your repository to GitHub.
 Go to Streamlit Cloud.
 Connect your GitHub account and select this repository.
 In “Advanced Settings”, set the start command as:
+```python
 streamlit run app.py
+```
 Click Deploy 🎉
