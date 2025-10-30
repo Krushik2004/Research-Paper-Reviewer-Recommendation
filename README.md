@@ -21,7 +21,7 @@ The goal of this project is to assist in **automating the reviewer assignment pr
 
 ## 🧠 **Approach Overview**
 ### Dataset and PDF Processing:
-- The dataset was provided by the course instructor. Dataset is available here: https://mahindraecolecentrale-my.sharepoint.com/:f:/g/personal/sanatan_sukhija_mahindrauniversity_edu_in/Es7ZAw7fvnlIqX0DmkCPiYwBQ5ueGz33Hq-NALrQKhgzww
+- The dataset was provided by the course instructor. Dataset is available [here](https://mahindraecolecentrale-my.sharepoint.com/:f:/g/personal/sanatan_sukhija_mahindrauniversity_edu_in/Es7ZAw7fvnlIqX0DmkCPiYwBQ5ueGz33Hq-NALrQKhgzww).
 - It consists of multiple folders, each named after an author, containing their published research papers in PDF format.
 - Since research papers vary widely in structure and formatting, we used a PDF parsing pipeline to extract text uniformly.
 - From each PDF, the first 2000 words were extracted using PyMuPDF (fitz), ensuring that the most representative parts (title, abstract, introduction, and early methodology) were captured. The names of authors were extracted from the directory name containing the research papers due to research papers having various formats, which made extracting particular details difficult.
