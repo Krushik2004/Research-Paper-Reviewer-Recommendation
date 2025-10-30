@@ -57,7 +57,7 @@ $$
 $$
 
 Where:
-- **avg_similarity** = average similarity of papers with similarity ≥ 95th percentile  
+- **avg_similarity** = average similarity of papers with similarity ≥ 95th percentile (**Top 30** research papers, as there were over **600 research papers** in the dataset) 
 - **n** = number of papers with similarity > 0
 
 ## 🚀 Step-by-Step Setup Instructions
