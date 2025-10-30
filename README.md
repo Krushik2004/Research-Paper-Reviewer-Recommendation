@@ -79,7 +79,7 @@ tqdm
 ```
 
 ### 🪜 Step 4: Run the Streamlit Application
-Once embeddings are generated, launch the web application.
+Launch the web application.
 ```python
 streamlit run app.py
 ```
