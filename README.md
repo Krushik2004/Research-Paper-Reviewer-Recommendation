@@ -17,7 +17,7 @@ The goal of this project is to assist in **automating the reviewer assignment pr
 
 ---
 
-**The Deployed Website link hosted on  streamlit**: ["Application Link"](https://research-paper-reviewer-recommendation-jqyyvdqdnqrnvgnmcn7v7y.streamlit.app)
+**The Deployed Website link hosted on  streamlit**: ["Website Link"](https://research-paper-reviewer-recommendation-jqyyvdqdnqrnvgnmcn7v7y.streamlit.app)
 
 ## 🧠 **Approach Overview**
 ### Dataset and PDF Processing:
