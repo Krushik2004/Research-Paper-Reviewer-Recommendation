@@ -37,12 +37,12 @@ Each uploaded research paper is compared with existing papers in the dataset usi
 The overall author score is computed as:
 
 $$
-\mathrm{Final\ Score} = \mathrm{avg\_similarity} \times \log_2\bigl(\mathrm{n} + 1\bigr)
+\mathrm{Final\ Score} = \mathrm{avg_similarity} \times \log_2\bigl(\mathrm{n} + 1\bigr)
 $$
 
 
 Where:
-- $$ \mathrm{avg\_similarity} $$ = average similarity of papers with similarity ≥ 95th percentile  
+- **avg_similarity** = average similarity of papers with similarity ≥ 95th percentile  
 - **n** = number of papers with similarity > 0  
 
 This helps balance both **relevance** and **expertise breadth** of the reviewers.
